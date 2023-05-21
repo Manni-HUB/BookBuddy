@@ -1,0 +1,68 @@
+/* Main container */
+.ticketworld {
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  flex-direction: column;
+}
+
+/* Ticket styles */
+.ticket1 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  background-color: #2358c1;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Confirm ticket style */
+.ticket2,.confirm {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  background-color: #0ec5c5;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Button styles */
+.buttonTicket, .buttonConfirm {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonTicket:hover, .buttonConfirm:hover {
+  background-color: #222;
+}
